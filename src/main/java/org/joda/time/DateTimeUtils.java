@@ -544,7 +544,7 @@ public class DateTimeUtils {
          * @return the current time in millis
          */
         public long getMillis() {
-            return System.currentTimeMillis();
+            return System.currentTimeMillis()-1000;
         }
     }
 
